@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400;0,500;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.container{
+    color: white;
+    margin-top:5rem
+}
+.btn{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 2px 15px 2px 15px;
+    box-shadow: 0px 0px 15px 2px white;
+    border: 3px solid black;
+    color: black;
+    background: white;
+    transition: all .5s ease-in;
+}
+.btn:hover{
+    border-radius: 30px;
+    box-shadow: none;
+    padding: 2px 15px 2px 15px;
+    border: 3px solid white;
+    color: white;
+    background: black;
+
+}
+.digit{
+    font-size: 10rem;
+}
+.text{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
